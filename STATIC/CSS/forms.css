@@ -1,0 +1,37 @@
+body{
+      background-color: antiquewhite;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+#myform{
+        border: 1px solid purple;
+        width: 300px;
+        margin:auto;
+        padding: 20px;
+        background-color: darkseagreen ;
+        border-radius: 5px;
+}
+input,textarea{
+               border: 1px solid maroon;
+               width:100%;
+               border-radius: 6px;
+               padding:5px;
+}
+label{
+      font-weight: bold;
+      display:block;
+}
+input[type="submit"]{
+    color: beige;
+    font-weight: bolder;
+    background-color: blueviolet;
+    cursor: pointer;
+    width:150px;
+    height:30px;
+}
+input[type="submit"]:hover{
+    background-color: palevioletred;
+}

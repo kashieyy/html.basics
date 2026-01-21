@@ -1,0 +1,38 @@
+
+body{
+     background-color: black;
+     font-family:sans-serif ;
+}
+h2{
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+}
+table{
+width:50%;
+margin: 50px;
+}
+th{
+    /* border-width:2px
+    border-color:red;
+    border-style:solid */
+    border:2px pink solid;
+    text-align:center
+    background-color(0, 170, 200)
+}
+
+p{
+  font-size: 30pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    forced-color-adjust:pink;
+}
+h3{
+   font-style: italic;
+}
+
+
+
+
+
+
+

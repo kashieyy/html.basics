@@ -1,0 +1,81 @@
+body{
+      background-color: bisque;
+      font-family: sans-serif;
+      margin:0cm
+}
+h1{
+    color: blueviolet;
+}
+p{
+color:aqua;
+}
+#one{
+    color: black;
+    font-size: xx-large;
+}
+#abc{
+     color: burlywood;
+     font-size: xx-large;
+}
+.hello{
+       color: rgb(241, 12, 222);
+       font-size: x-large;
+}
+.goals{
+       color: darksalmon;
+       font-size: larger;
+       text-align: center;
+}
+#header{
+        background-color: rgb(18, 241, 93);
+        text-align: center;
+        padding: 20px;
+        border: 2px solid rgb(5, 153, 211);
+}
+#content{
+         background-color: rgb(255, 0, 119);
+         width: 80%;
+         margin: 20px auto;
+         padding: 20px;
+}
+.chrome{
+        background-color: rgb(0, 118, 139);
+        margin-top: 30px;
+        padding: 20px;
+        border: 2px solid rgb(233, 10, 10);
+        border-radius: 5px;
+}
+#hero{
+      text-align: center;
+      height: 250px;
+      background-image: url("../IMAGES/what\ is.jpg");
+      background-size: cover;
+      background-position: center;
+      padding-top: 90px;
+      color: mediumslateblue;
+}
+#nav{
+      background-color: aquamarine;
+      padding: 10px;
+}
+#nav ul{
+         list-style-type: none;
+         text-align: center;
+         padding: 0;
+}
+#nav ul li{
+           display:inline;
+           margin: 0 15px;
+}
+#nav ul li a{
+             text-decoration: none;
+             color: black;
+             font-weight: bold;
+             padding: 8px 12px;
+}
+#nav ul li a:hover{
+                    color: blueviolet;
+                    background-color: khaki;
+}
+
+
