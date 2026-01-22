@@ -1,0 +1,27 @@
+body{
+    background-color: hotpink;
+    font-family: cursive;
+}
+#container{
+    background-color: rgb(3, 7, 255);
+    padding: 10px;
+    display: flex;
+    gap:20px;
+    justify-content:flex-start;
+
+}
+.service{
+    border: 2px solid rgb(0, 0, 0);
+    background-color:blueviolet;
+    padding:10px;
+    flex:1
+}
+/* adding responsives */
+@media(max-width:766px){
+    body{
+        background-color: antiquewhite;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
